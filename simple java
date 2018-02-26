@@ -14,6 +14,7 @@ public class T1chromelaunching {
 		System.setProperty("webdriver.ie.driver","E:\\Testing\\IEDriverServer_x64_3.4.0\\iedriverserver.exe" );
 		WebDriver driver=new InternetExplorerDriver();
 		driver.get("https://accounts.google.com");
+		done
 
 
 	}
