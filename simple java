@@ -11,7 +11,11 @@ public class T1chromelaunching {
 		System.setProperty("webdriver.gecko.driver","E:\\Testing\\geckodriver-v0.16.1-win64\\geckodriver.exe");
 		WebDriver driver=new FirefoxDriver();
 		driver.get("http:/www.google.co.in");
-		
+		System.setProperty("webdriver.ie.driver","E:\\Testing\\IEDriverServer_x64_3.4.0\\iedriverserver.exe" );
+		WebDriver driver=new InternetExplorerDriver();
+		driver.get("https://accounts.google.com");
+		done
+
 
 	}
 
